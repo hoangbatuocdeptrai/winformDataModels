@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ryzflKEq+YsfG8oyjEf4ylw56sQfjlwfA7Xq6zQcOnG1G5COvMwiI7CokvOwkwi5loFgjPIrB2h+UWiNv0d2CA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS-VivoBook\\source\\repos\\Models\\ReceiveData\\ReceiveData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS-VivoBook\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS-VivoBook\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS-VivoBook\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\7.0.0\\runtime.linux-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS-VivoBook\\.nuget\\packages\\runtime.native.system.io.ports\\7.0.0\\runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS-VivoBook\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\7.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS-VivoBook\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\7.0.0\\runtime.osx-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS-VivoBook\\.nuget\\packages\\system.io.ports\\7.0.0\\system.io.ports.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
