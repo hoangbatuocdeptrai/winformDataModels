@@ -56,8 +56,23 @@
             barDetailsModels = new DevExpress.XtraBars.BarButtonItem();
             barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             barSubItem2 = new DevExpress.XtraBars.BarSubItem();
+            barSubItem3 = new DevExpress.XtraBars.BarSubItem();
+            barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
+            barSubItem4 = new DevExpress.XtraBars.BarSubItem();
+            barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
             ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(components);
             tabbedView1 = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(components);
@@ -73,9 +88,10 @@
             // 
             ribbon.AutoHideEmptyItems = true;
             ribbon.ExpandCollapseItem.Id = 0;
-            ribbon.Items.AddRange(new DevExpress.XtraBars.BarItem[] { ribbon.ExpandCollapseItem, barButtonItem1, barButtonItem2, barButtonItem3, barListItem1, barSubItem1, barDockingMenuItem1, barWorkspaceMenuItem1, barDockingMenuItem2, barStaticItem1, barModels, barDetailsModels, barButtonItem4, barSubItem2 });
+            ribbon.Items.AddRange(new DevExpress.XtraBars.BarItem[] { ribbon.ExpandCollapseItem, barButtonItem1, barButtonItem2, barButtonItem3, barListItem1, barSubItem1, barDockingMenuItem1, barWorkspaceMenuItem1, barDockingMenuItem2, barStaticItem1, barModels, barDetailsModels, barButtonItem4, barSubItem2, barSubItem3, barButtonItem5, barButtonItem6, barButtonItem7, barButtonItem8, barSubItem4, barButtonItem9, barButtonItem10, barButtonItem11, barButtonItem12, barButtonItem13, barButtonItem14, barButtonItem15 });
             ribbon.Location = new Point(0, 0);
-            ribbon.MaxItemId = 14;
+            ribbon.Margin = new Padding(4, 2, 4, 2);
+            ribbon.MaxItemId = 27;
             ribbon.Name = "ribbon";
             ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] { ribbonPage1 });
             ribbon.ShowDisplayOptionsMenuButton = DevExpress.Utils.DefaultBoolean.False;
@@ -150,7 +166,9 @@
             barModels.Caption = "Models";
             barModels.Id = 10;
             barModels.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barModels.ImageOptions.SvgImage");
+            barModels.LargeWidth = 70;
             barModels.Name = "barModels";
+            barModels.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             barModels.ItemClick += barModels_ItemClick;
             // 
             // barDetailsModels
@@ -158,7 +176,9 @@
             barDetailsModels.Caption = "Chi Tiết Models";
             barDetailsModels.Id = 11;
             barDetailsModels.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barDetailsModels.ImageOptions.SvgImage");
+            barDetailsModels.LargeWidth = 70;
             barDetailsModels.Name = "barDetailsModels";
+            barDetailsModels.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             barDetailsModels.ItemClick += barDetailsModels_ItemClick;
             // 
             // barButtonItem4
@@ -173,9 +193,107 @@
             barSubItem2.Id = 13;
             barSubItem2.Name = "barSubItem2";
             // 
+            // barSubItem3
+            // 
+            barSubItem3.Caption = "barSubItem3";
+            barSubItem3.Id = 14;
+            barSubItem3.Name = "barSubItem3";
+            // 
+            // barButtonItem5
+            // 
+            barButtonItem5.Caption = "barButtonItem5";
+            barButtonItem5.Id = 15;
+            barButtonItem5.Name = "barButtonItem5";
+            // 
+            // barButtonItem6
+            // 
+            barButtonItem6.Caption = "barButtonItem6";
+            barButtonItem6.Id = 16;
+            barButtonItem6.Name = "barButtonItem6";
+            // 
+            // barButtonItem7
+            // 
+            barButtonItem7.Caption = "barButtonItem7";
+            barButtonItem7.Id = 17;
+            barButtonItem7.Name = "barButtonItem7";
+            // 
+            // barButtonItem8
+            // 
+            barButtonItem8.Caption = "barButtonItem8";
+            barButtonItem8.Id = 18;
+            barButtonItem8.Name = "barButtonItem8";
+            // 
+            // barSubItem4
+            // 
+            barSubItem4.Caption = "barSubItem4";
+            barSubItem4.Id = 19;
+            barSubItem4.Name = "barSubItem4";
+            // 
+            // barButtonItem9
+            // 
+            barButtonItem9.Caption = "Nhập kho";
+            barButtonItem9.Id = 20;
+            barButtonItem9.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem9.ImageOptions.SvgImage");
+            barButtonItem9.LargeWidth = 70;
+            barButtonItem9.Name = "barButtonItem9";
+            barButtonItem9.ItemClick += barButtonItem9_ItemClick;
+            // 
+            // barButtonItem10
+            // 
+            barButtonItem10.Caption = "Xuất kho";
+            barButtonItem10.Id = 21;
+            barButtonItem10.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem10.ImageOptions.SvgImage");
+            barButtonItem10.LargeWidth = 70;
+            barButtonItem10.Name = "barButtonItem10";
+            barButtonItem10.ItemClick += barButtonItem10_ItemClick;
+            // 
+            // barButtonItem11
+            // 
+            barButtonItem11.Caption = "Lịch sử kho";
+            barButtonItem11.Id = 22;
+            barButtonItem11.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem11.ImageOptions.SvgImage");
+            barButtonItem11.LargeWidth = 70;
+            barButtonItem11.Name = "barButtonItem11";
+            barButtonItem11.ItemClick += barButtonItem11_ItemClick;
+            // 
+            // barButtonItem12
+            // 
+            barButtonItem12.Caption = "Khu";
+            barButtonItem12.Id = 23;
+            barButtonItem12.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem12.ImageOptions.SvgImage");
+            barButtonItem12.LargeWidth = 70;
+            barButtonItem12.Name = "barButtonItem12";
+            barButtonItem12.ItemClick += barButtonItem12_ItemClick;
+            // 
+            // barButtonItem13
+            // 
+            barButtonItem13.Caption = "Hàng";
+            barButtonItem13.Id = 24;
+            barButtonItem13.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem13.ImageOptions.SvgImage");
+            barButtonItem13.LargeWidth = 70;
+            barButtonItem13.Name = "barButtonItem13";
+            barButtonItem13.ItemClick += barButtonItem13_ItemClick;
+            // 
+            // barButtonItem14
+            // 
+            barButtonItem14.Caption = "Kệ";
+            barButtonItem14.Id = 25;
+            barButtonItem14.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem14.ImageOptions.SvgImage");
+            barButtonItem14.LargeWidth = 70;
+            barButtonItem14.Name = "barButtonItem14";
+            barButtonItem14.ItemClick += barButtonItem14_ItemClick;
+            // 
+            // barButtonItem15
+            // 
+            barButtonItem15.Caption = "Bảng điều khiển";
+            barButtonItem15.Id = 26;
+            barButtonItem15.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem15.ImageOptions.SvgImage");
+            barButtonItem15.LargeWidth = 70;
+            barButtonItem15.Name = "barButtonItem15";
+            // 
             // ribbonPage1
             // 
-            ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] { ribbonPageGroup1 });
+            ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] { ribbonPageGroup1, ribbonPageGroup2, ribbonPageGroup3 });
             ribbonPage1.Name = "ribbonPage1";
             ribbonPage1.Text = "Danh Mục";
             // 
@@ -183,12 +301,30 @@
             // 
             ribbonPageGroup1.ItemLinks.Add(barDetailsModels);
             ribbonPageGroup1.ItemLinks.Add(barModels);
+            ribbonPageGroup1.ItemLinks.Add(barButtonItem15);
             ribbonPageGroup1.Name = "ribbonPageGroup1";
             ribbonPageGroup1.Text = "Models";
+            // 
+            // ribbonPageGroup2
+            // 
+            ribbonPageGroup2.ItemLinks.Add(barButtonItem9);
+            ribbonPageGroup2.ItemLinks.Add(barButtonItem10);
+            ribbonPageGroup2.ItemLinks.Add(barButtonItem11);
+            ribbonPageGroup2.Name = "ribbonPageGroup2";
+            ribbonPageGroup2.Text = "Quản lí kho";
+            // 
+            // ribbonPageGroup3
+            // 
+            ribbonPageGroup3.ItemLinks.Add(barButtonItem12);
+            ribbonPageGroup3.ItemLinks.Add(barButtonItem13);
+            ribbonPageGroup3.ItemLinks.Add(barButtonItem14);
+            ribbonPageGroup3.Name = "ribbonPageGroup3";
+            ribbonPageGroup3.Text = "Vị trí kho";
             // 
             // ribbonStatusBar
             // 
             ribbonStatusBar.Location = new Point(0, 695);
+            ribbonStatusBar.Margin = new Padding(4, 2, 4, 2);
             ribbonStatusBar.Name = "ribbonStatusBar";
             ribbonStatusBar.Ribbon = ribbon;
             ribbonStatusBar.Size = new Size(1438, 30);
@@ -224,6 +360,7 @@
             Controls.Add(ribbon);
             IconOptions.Image = (Image)resources.GetObject("frmMainss.IconOptions.Image");
             IsMdiContainer = true;
+            Margin = new Padding(4, 2, 4, 2);
             Name = "frmMainss";
             Ribbon = ribbon;
             StatusBar = ribbonStatusBar;
@@ -260,5 +397,20 @@
         private DevExpress.XtraBars.Ribbon.Internal.RepositoryItemRibbonSearchEdit repositoryItemRibbonSearchEdit1;
         private DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1;
         private DevExpress.XtraBars.BarSubItem barSubItem2;
+        private DevExpress.XtraBars.BarSubItem barSubItem3;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem5;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem6;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem7;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem8;
+        private DevExpress.XtraBars.BarSubItem barSubItem4;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem9;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem10;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem12;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem13;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem14;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem15;
     }
 }

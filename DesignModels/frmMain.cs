@@ -81,5 +81,47 @@ namespace DesignModels
         {
 
         }
+
+        private void barButtonItem9_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            OpenForm(typeof(frmNhapKho));
+            splashScreenManager1.CloseWaitForm();
+        }
+
+        private void barButtonItem10_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            OpenForm(typeof(frmXuatKho));
+            splashScreenManager1.CloseWaitForm();
+        }
+
+        private void barButtonItem11_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            OpenForm(typeof(frmTraCuu));
+            splashScreenManager1.CloseWaitForm();
+        }
+
+        private void barButtonItem12_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            OpenForm(typeof(frmKhu));
+            splashScreenManager1.CloseWaitForm();
+        }
+
+        private void barButtonItem13_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            OpenForm(typeof(frmHang));
+            splashScreenManager1.CloseWaitForm();
+        }
+
+        private void barButtonItem14_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            OpenForm(typeof(frmKe));
+            splashScreenManager1.CloseWaitForm();
+        }
     }
 }

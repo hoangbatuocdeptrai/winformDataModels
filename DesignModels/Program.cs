@@ -21,7 +21,7 @@ namespace DesignModels
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             ServiceProvider = CreateHostBuilder().Build().Services;
-            Application.Run(ServiceProvider.GetService<frmLogin>());
+            Application.Run(ServiceProvider.GetService<frmMainss>());
             //Application.Run(ServiceProvider.GetRequiredService<frmMainss>());
         }
 
@@ -33,10 +33,22 @@ namespace DesignModels
                     services.AddTransient<IDbservice, DbService>();
                     services.AddTransient<IModelsService, ModelsService>();
                     services.AddTransient<IFileImageService, FileImageService>();
+                    services.AddTransient<IKhuService, KhuService>();
+                    services.AddTransient<IHangService, HangService>();
+                    services.AddTransient<IKeService, KeService>();
+                    services.AddTransient<INhapKhoService, NhapKhoService>();
+                    services.AddTransient<IXuatKhoService, XuatKhoService>();
+                    services.AddTransient<ILuuTruService, LuuTruService>();
                     services.AddTransient<frmMainss>();
                     services.AddTransient<Models>();
                     services.AddTransient<frmDetailsModels>();
                     services.AddTransient<frmLogin>();
+                    services.AddTransient<frmNhapKho>();
+                    services.AddTransient<frmXuatKho>();
+                    services.AddTransient<frmKhu>();
+                    services.AddTransient<frmHang>();
+                    services.AddTransient<frmKe>();
+                    services.AddTransient<frmTraCuu>();
                 });
         }
     }

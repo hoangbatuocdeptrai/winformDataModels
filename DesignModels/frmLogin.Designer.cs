@@ -42,25 +42,28 @@
             // txtUser
             // 
             txtUser.Anchor = AnchorStyles.Right;
-            txtUser.Location = new Point(445, 99);
+            txtUser.Location = new Point(382, 77);
+            txtUser.Margin = new Padding(3, 2, 3, 2);
             txtUser.Multiline = true;
             txtUser.Name = "txtUser";
-            txtUser.Size = new Size(180, 28);
+            txtUser.Size = new Size(155, 24);
             txtUser.TabIndex = 0;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(444, 149);
+            txtPassword.Location = new Point(381, 121);
+            txtPassword.Margin = new Padding(3, 2, 3, 2);
             txtPassword.Multiline = true;
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
-            txtPassword.Size = new Size(180, 29);
+            txtPassword.Size = new Size(155, 24);
             txtPassword.TabIndex = 0;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.cai_khoa;
-            pictureBox1.Location = new Point(-56, -62);
+            pictureBox1.Location = new Point(-48, -50);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(416, 416);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -70,18 +73,18 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(365, 111);
+            label1.Location = new Point(313, 90);
             label1.Name = "label1";
-            label1.Size = new Size(63, 16);
+            label1.Size = new Size(53, 13);
             label1.TabIndex = 2;
             label1.Text = "Tài khoản";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(365, 162);
+            label2.Location = new Point(313, 132);
             label2.Name = "label2";
-            label2.Size = new Size(59, 16);
+            label2.Size = new Size(51, 13);
             label2.TabIndex = 2;
             label2.Text = "Mật khẩu";
             // 
@@ -89,17 +92,18 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Times New Roman", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(393, 24);
+            label3.Location = new Point(337, 20);
             label3.Name = "label3";
-            label3.Size = new Size(212, 45);
+            label3.Size = new Size(171, 36);
             label3.TabIndex = 3;
             label3.Text = "Đăng Nhập";
             // 
             // button1
             // 
-            button1.Location = new Point(406, 214);
+            button1.Location = new Point(348, 174);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(94, 40);
+            button1.Size = new Size(81, 32);
             button1.TabIndex = 4;
             button1.Text = "Thoát";
             button1.UseVisualStyleBackColor = true;
@@ -107,9 +111,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(530, 214);
+            button2.Location = new Point(454, 174);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(94, 40);
+            button2.Size = new Size(81, 32);
             button2.TabIndex = 4;
             button2.Text = "Đăng Nhập";
             button2.UseVisualStyleBackColor = true;
@@ -119,9 +124,9 @@
             // 
             Appearance.BackColor = Color.White;
             Appearance.Options.UseBackColor = true;
-            AutoScaleDimensions = new SizeF(7F, 16F);
+            AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(769, 286);
+            ClientSize = new Size(660, 226);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label3);
@@ -130,6 +135,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(txtPassword);
             Controls.Add(txtUser);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "frmLogin";
             Text = "frmLogin";
             Load += frmLogin_Load;

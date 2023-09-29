@@ -28,7 +28,7 @@ namespace DesignModels
         {
             if (txtUser.Text == "admin" && txtPassword.Text == "123")
             {
-                MessageBox.Show("Đăng nhập thành công");
+                //MessageBox.Show("Đăng nhập thành công");
                 this.Hide();
                 frmMainss frm = new frmMainss();
                 frm.ShowDialog();
