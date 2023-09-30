@@ -26,7 +26,7 @@ namespace DesignModels.Services
 
         public async Task<List<XuatKho>> GetAllXuatKho()
         {
-            var result = await _dbservice.GettAll<XuatKho>("SELECT * FROM public.xuatkho", new { });
+            var result = await _dbservice.GettAll<XuatKho>("SELECT nk.*, k.tenkhu, h.tenhang, ke.tenke FROM public.xuatkho as nk join public.khu as k on nk.khuid = k.id join public.hang as h on nk.hangid = h.id join public.ke as ke on nk.keid = ke.id", new { });
             return result;
         }
 

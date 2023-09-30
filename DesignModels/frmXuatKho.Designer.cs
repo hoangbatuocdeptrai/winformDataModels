@@ -134,7 +134,7 @@
             // simpleButton1
             // 
             simpleButton1.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("simpleButton1.ImageOptions.SvgImage");
-            simpleButton1.Location = new Point(997, 122);
+            simpleButton1.Location = new Point(999, 120);
             simpleButton1.Margin = new Padding(4, 2, 4, 2);
             simpleButton1.Name = "simpleButton1";
             simpleButton1.Size = new Size(80, 44);
@@ -146,10 +146,10 @@
             // 
             btnSaveData.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             btnSaveData.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("btnSaveData.ImageOptions.SvgImage");
-            btnSaveData.Location = new Point(905, 122);
+            btnSaveData.Location = new Point(906, 120);
             btnSaveData.Margin = new Padding(4, 2, 4, 2);
             btnSaveData.Name = "btnSaveData";
-            btnSaveData.Size = new Size(88, 44);
+            btnSaveData.Size = new Size(89, 44);
             btnSaveData.StyleController = layoutControl1;
             btnSaveData.TabIndex = 9;
             btnSaveData.Text = "Save";
@@ -158,59 +158,59 @@
             // txtNgayLay
             // 
             txtNgayLay.EditValue = null;
-            txtNgayLay.Location = new Point(141, 96);
-            txtNgayLay.Margin = new Padding(4, 4, 4, 4);
+            txtNgayLay.Location = new Point(137, 94);
+            txtNgayLay.Margin = new Padding(4);
             txtNgayLay.Name = "txtNgayLay";
             txtNgayLay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] { new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo) });
             txtNgayLay.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] { new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo) });
-            txtNgayLay.Size = new Size(207, 22);
+            txtNgayLay.Size = new Size(210, 22);
             txtNgayLay.StyleController = layoutControl1;
             txtNgayLay.TabIndex = 8;
             // 
             // txtTenSP
             // 
-            txtTenSP.Location = new Point(479, 14);
-            txtTenSP.Margin = new Padding(4, 4, 4, 4);
+            txtTenSP.Location = new Point(476, 12);
+            txtTenSP.Margin = new Padding(4);
             txtTenSP.Name = "txtTenSP";
-            txtTenSP.Size = new Size(598, 22);
+            txtTenSP.Size = new Size(603, 22);
             txtTenSP.StyleController = layoutControl1;
             txtTenSP.TabIndex = 2;
             // 
             // cboKe
             // 
             cboKe.FormattingEnabled = true;
-            cboKe.Location = new Point(818, 66);
-            cboKe.Margin = new Padding(4, 4, 4, 4);
+            cboKe.Location = new Point(816, 64);
+            cboKe.Margin = new Padding(4);
             cboKe.Name = "cboKe";
-            cboKe.Size = new Size(259, 24);
+            cboKe.Size = new Size(263, 24);
             cboKe.TabIndex = 7;
             // 
             // cboHang
             // 
             cboHang.FormattingEnabled = true;
-            cboHang.Location = new Point(479, 66);
-            cboHang.Margin = new Padding(4, 4, 4, 4);
+            cboHang.Location = new Point(476, 64);
+            cboHang.Margin = new Padding(4);
             cboHang.Name = "cboHang";
-            cboHang.Size = new Size(208, 24);
+            cboHang.Size = new Size(211, 24);
             cboHang.TabIndex = 6;
             // 
             // cboKhu
             // 
             cboKhu.FormattingEnabled = true;
-            cboKhu.Location = new Point(141, 66);
-            cboKhu.Margin = new Padding(4, 4, 4, 4);
+            cboKhu.Location = new Point(137, 64);
+            cboKhu.Margin = new Padding(4);
             cboKhu.Name = "cboKhu";
-            cboKhu.Size = new Size(207, 24);
+            cboKhu.Size = new Size(210, 24);
             cboKhu.TabIndex = 5;
             // 
             // gridControl1
             // 
             gridControl1.EmbeddedNavigator.Margin = new Padding(5, 2, 5, 2);
-            gridControl1.Location = new Point(14, 195);
+            gridControl1.Location = new Point(12, 194);
             gridControl1.MainView = gridView1;
             gridControl1.Margin = new Padding(4, 2, 4, 2);
             gridControl1.Name = "gridControl1";
-            gridControl1.Size = new Size(1063, 441);
+            gridControl1.Size = new Size(1067, 444);
             gridControl1.TabIndex = 11;
             gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
             // 
@@ -242,8 +242,8 @@
             // 
             // gridColumn3
             // 
-            gridColumn3.Caption = "Khu";
-            gridColumn3.FieldName = "khuid";
+            gridColumn3.Caption = "Tên khu";
+            gridColumn3.FieldName = "tenkhu";
             gridColumn3.MinWidth = 23;
             gridColumn3.Name = "gridColumn3";
             gridColumn3.Visible = true;
@@ -252,8 +252,8 @@
             // 
             // gridColumn4
             // 
-            gridColumn4.Caption = "Hàng";
-            gridColumn4.FieldName = "hangid";
+            gridColumn4.Caption = "Tên hàng";
+            gridColumn4.FieldName = "tenhang";
             gridColumn4.MinWidth = 23;
             gridColumn4.Name = "gridColumn4";
             gridColumn4.Visible = true;
@@ -262,8 +262,8 @@
             // 
             // gridColumn5
             // 
-            gridColumn5.Caption = "Kệ";
-            gridColumn5.FieldName = "keid";
+            gridColumn5.Caption = "Tên kệ";
+            gridColumn5.FieldName = "tenke";
             gridColumn5.MinWidth = 23;
             gridColumn5.Name = "gridColumn5";
             gridColumn5.Visible = true;
@@ -304,7 +304,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(828, 122);
+            button2.Location = new Point(829, 120);
             button2.Margin = new Padding(4, 2, 4, 2);
             button2.Name = "button2";
             button2.Size = new Size(73, 44);
@@ -314,28 +314,28 @@
             // 
             // txtNguoiLay
             // 
-            txtNguoiLay.Location = new Point(479, 40);
+            txtNguoiLay.Location = new Point(476, 38);
             txtNguoiLay.Margin = new Padding(4, 2, 4, 2);
             txtNguoiLay.Name = "txtNguoiLay";
-            txtNguoiLay.Size = new Size(598, 22);
+            txtNguoiLay.Size = new Size(603, 22);
             txtNguoiLay.StyleController = layoutControl1;
             txtNguoiLay.TabIndex = 4;
             // 
             // txtSoLuong
             // 
-            txtSoLuong.Location = new Point(141, 40);
+            txtSoLuong.Location = new Point(137, 38);
             txtSoLuong.Margin = new Padding(4, 2, 4, 2);
             txtSoLuong.Name = "txtSoLuong";
-            txtSoLuong.Size = new Size(207, 22);
+            txtSoLuong.Size = new Size(210, 22);
             txtSoLuong.StyleController = layoutControl1;
             txtSoLuong.TabIndex = 3;
             // 
             // txtMaSP
             // 
-            txtMaSP.Location = new Point(141, 14);
+            txtMaSP.Location = new Point(137, 12);
             txtMaSP.Margin = new Padding(4, 2, 4, 2);
             txtMaSP.Name = "txtMaSP";
-            txtMaSP.Size = new Size(207, 22);
+            txtMaSP.Size = new Size(210, 22);
             txtMaSP.StyleController = layoutControl1;
             txtMaSP.TabIndex = 0;
             // 
@@ -353,7 +353,7 @@
             layoutControlItem1.Control = txtMaSP;
             layoutControlItem1.Location = new Point(0, 0);
             layoutControlItem1.Name = "layoutControlItem1";
-            layoutControlItem1.Size = new Size(338, 26);
+            layoutControlItem1.Size = new Size(339, 26);
             layoutControlItem1.Text = "Mã sản phẩm";
             layoutControlItem1.TextSize = new Size(113, 16);
             // 
@@ -362,7 +362,7 @@
             emptySpaceItem1.AllowHotTrack = false;
             emptySpaceItem1.Location = new Point(0, 156);
             emptySpaceItem1.Name = "emptySpaceItem1";
-            emptySpaceItem1.Size = new Size(1067, 25);
+            emptySpaceItem1.Size = new Size(1071, 26);
             emptySpaceItem1.TextSize = new Size(0, 0);
             // 
             // emptySpaceItem2
@@ -370,21 +370,21 @@
             emptySpaceItem2.AllowHotTrack = false;
             emptySpaceItem2.Location = new Point(0, 108);
             emptySpaceItem2.Name = "emptySpaceItem2";
-            emptySpaceItem2.Size = new Size(466, 48);
+            emptySpaceItem2.Size = new Size(468, 48);
             emptySpaceItem2.TextSize = new Size(0, 0);
             // 
             // emptySpaceItem3
             // 
             emptySpaceItem3.AllowHotTrack = false;
-            emptySpaceItem3.Location = new Point(466, 108);
+            emptySpaceItem3.Location = new Point(468, 108);
             emptySpaceItem3.Name = "emptySpaceItem3";
-            emptySpaceItem3.Size = new Size(348, 48);
+            emptySpaceItem3.Size = new Size(349, 48);
             emptySpaceItem3.TextSize = new Size(0, 0);
             // 
             // layoutControlItem6
             // 
             layoutControlItem6.Control = button2;
-            layoutControlItem6.Location = new Point(814, 108);
+            layoutControlItem6.Location = new Point(817, 108);
             layoutControlItem6.Name = "layoutControlItem6";
             layoutControlItem6.Size = new Size(77, 48);
             layoutControlItem6.TextSize = new Size(0, 0);
@@ -393,18 +393,18 @@
             // layoutControlItem7
             // 
             layoutControlItem7.Control = gridControl1;
-            layoutControlItem7.Location = new Point(0, 181);
+            layoutControlItem7.Location = new Point(0, 182);
             layoutControlItem7.Name = "layoutControlItem7";
-            layoutControlItem7.Size = new Size(1067, 445);
+            layoutControlItem7.Size = new Size(1071, 448);
             layoutControlItem7.TextSize = new Size(0, 0);
             layoutControlItem7.TextVisible = false;
             // 
             // emptySpaceItem7
             // 
             emptySpaceItem7.AllowHotTrack = false;
-            emptySpaceItem7.Location = new Point(338, 82);
+            emptySpaceItem7.Location = new Point(339, 82);
             emptySpaceItem7.Name = "emptySpaceItem7";
-            emptySpaceItem7.Size = new Size(729, 26);
+            emptySpaceItem7.Size = new Size(732, 26);
             emptySpaceItem7.TextSize = new Size(0, 0);
             // 
             // K
@@ -412,34 +412,34 @@
             K.Control = cboKhu;
             K.Location = new Point(0, 52);
             K.Name = "K";
-            K.Size = new Size(338, 30);
+            K.Size = new Size(339, 30);
             K.Text = "Khu";
             K.TextSize = new Size(113, 16);
             // 
             // layoutControlItem13
             // 
             layoutControlItem13.Control = cboKe;
-            layoutControlItem13.Location = new Point(677, 52);
+            layoutControlItem13.Location = new Point(679, 52);
             layoutControlItem13.Name = "layoutControlItem13";
-            layoutControlItem13.Size = new Size(390, 30);
+            layoutControlItem13.Size = new Size(392, 30);
             layoutControlItem13.Text = "Kệ";
             layoutControlItem13.TextSize = new Size(113, 16);
             // 
             // layoutControlItem14
             // 
             layoutControlItem14.Control = txtTenSP;
-            layoutControlItem14.Location = new Point(338, 0);
+            layoutControlItem14.Location = new Point(339, 0);
             layoutControlItem14.Name = "layoutControlItem14";
-            layoutControlItem14.Size = new Size(729, 26);
+            layoutControlItem14.Size = new Size(732, 26);
             layoutControlItem14.Text = "Tên";
             layoutControlItem14.TextSize = new Size(113, 16);
             // 
             // layoutControlItem11
             // 
             layoutControlItem11.Control = cboHang;
-            layoutControlItem11.Location = new Point(338, 52);
+            layoutControlItem11.Location = new Point(339, 52);
             layoutControlItem11.Name = "layoutControlItem11";
-            layoutControlItem11.Size = new Size(339, 30);
+            layoutControlItem11.Size = new Size(340, 30);
             layoutControlItem11.Text = "Hàng";
             layoutControlItem11.TextSize = new Size(113, 16);
             // 
@@ -448,16 +448,16 @@
             layoutControlItem2.Control = txtSoLuong;
             layoutControlItem2.Location = new Point(0, 26);
             layoutControlItem2.Name = "layoutControlItem2";
-            layoutControlItem2.Size = new Size(338, 26);
+            layoutControlItem2.Size = new Size(339, 26);
             layoutControlItem2.Text = "Số lượng";
             layoutControlItem2.TextSize = new Size(113, 16);
             // 
             // layoutControlItem4
             // 
             layoutControlItem4.Control = txtNguoiLay;
-            layoutControlItem4.Location = new Point(338, 26);
+            layoutControlItem4.Location = new Point(339, 26);
             layoutControlItem4.Name = "layoutControlItem4";
-            layoutControlItem4.Size = new Size(729, 26);
+            layoutControlItem4.Size = new Size(732, 26);
             layoutControlItem4.Text = "Người lấy sản phẩm";
             layoutControlItem4.TextSize = new Size(113, 16);
             // 
@@ -466,14 +466,14 @@
             layoutControlItem10.Control = txtNgayLay;
             layoutControlItem10.Location = new Point(0, 82);
             layoutControlItem10.Name = "layoutControlItem10";
-            layoutControlItem10.Size = new Size(338, 26);
+            layoutControlItem10.Size = new Size(339, 26);
             layoutControlItem10.Text = "Ngày lấy";
             layoutControlItem10.TextSize = new Size(113, 16);
             // 
             // layoutControlItem5
             // 
             layoutControlItem5.Control = simpleButton1;
-            layoutControlItem5.Location = new Point(983, 108);
+            layoutControlItem5.Location = new Point(987, 108);
             layoutControlItem5.Name = "layoutControlItem5";
             layoutControlItem5.Size = new Size(84, 48);
             layoutControlItem5.TextSize = new Size(0, 0);
@@ -482,9 +482,9 @@
             // layoutControlItem16
             // 
             layoutControlItem16.Control = btnSaveData;
-            layoutControlItem16.Location = new Point(891, 108);
+            layoutControlItem16.Location = new Point(894, 108);
             layoutControlItem16.Name = "layoutControlItem16";
-            layoutControlItem16.Size = new Size(92, 48);
+            layoutControlItem16.Size = new Size(93, 48);
             layoutControlItem16.TextSize = new Size(0, 0);
             layoutControlItem16.TextVisible = false;
             // 
@@ -540,7 +540,7 @@
             Controls.Add(layoutControl1);
             Margin = new Padding(4, 2, 4, 2);
             Name = "frmXuatKho";
-            Text = "frmXuatKho";
+            Text = "Xuất kho";
             Load += frmXuatKho_Load;
             ((System.ComponentModel.ISupportInitialize)layoutControl1).EndInit();
             layoutControl1.ResumeLayout(false);

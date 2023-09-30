@@ -275,7 +275,7 @@
             // 
             // gridColumn4
             // 
-            gridColumn4.Caption = "Thuộc khu";
+            gridColumn4.Caption = "Tên khu";
             gridColumn4.FieldName = "tenkhu";
             gridColumn4.MinWidth = 23;
             gridColumn4.Name = "gridColumn4";

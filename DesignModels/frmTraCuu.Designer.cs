@@ -136,6 +136,10 @@
             // 
             // gridColumn5
             // 
+            gridColumn5.AppearanceCell.BackColor = Color.FromArgb(255, 255, 192);
+            gridColumn5.AppearanceCell.Options.UseBackColor = true;
+            gridColumn5.AppearanceHeader.BackColor = Color.DarkGray;
+            gridColumn5.AppearanceHeader.Options.UseBackColor = true;
             gridColumn5.Caption = "Loại";
             gridColumn5.FieldName = "nhaporxuat";
             gridColumn5.MinWidth = 23;
@@ -243,7 +247,7 @@
             Controls.Add(layoutControl1);
             Margin = new Padding(4);
             Name = "frmTraCuu";
-            Text = "frmTraCuu";
+            Text = "Lịch sử";
             Load += frmTraCuu_Load;
             ((System.ComponentModel.ISupportInitialize)layoutControl1).EndInit();
             layoutControl1.ResumeLayout(false);

@@ -123,5 +123,12 @@ namespace DesignModels
             OpenForm(typeof(frmKe));
             splashScreenManager1.CloseWaitForm();
         }
+
+        private void barButtonItem15_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            OpenForm(typeof(frmBieuDo));
+            splashScreenManager1.CloseWaitForm();
+        }
     }
 }

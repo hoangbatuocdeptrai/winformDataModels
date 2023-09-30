@@ -192,3 +192,4 @@ C:\Users\ASUS-VivoBook\source\repos\Models\DesignModels\obj\Debug\net7.0-windows
 C:\Users\ASUS-VivoBook\source\repos\Models\DesignModels\obj\Debug\net7.0-windows\DesignModels.frmHang.resources
 C:\Users\ASUS-VivoBook\source\repos\Models\DesignModels\obj\Debug\net7.0-windows\DesignModels.frmKe.resources
 C:\Users\ASUS-VivoBook\source\repos\Models\DesignModels\obj\Debug\net7.0-windows\DesignModels.frmTraCuu.resources
+C:\Users\ASUS-VivoBook\source\repos\Models\DesignModels\obj\Debug\net7.0-windows\DesignModels.frmBieuDo.resources

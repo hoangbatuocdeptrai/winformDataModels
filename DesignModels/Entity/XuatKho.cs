@@ -21,5 +21,10 @@ namespace DesignModels.Entity
         public int keid { get; set; }
         public string nguoilay { get; set; } = null!;
         public DateTime ngaylay { get; set; }
+
+        //them
+        public string tenkhu { get; set; }
+        public string tenhang { get; set; }
+        public string tenke { get; set; }
     }
 }

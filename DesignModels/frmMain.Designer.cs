@@ -290,6 +290,7 @@
             barButtonItem15.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem15.ImageOptions.SvgImage");
             barButtonItem15.LargeWidth = 70;
             barButtonItem15.Name = "barButtonItem15";
+            barButtonItem15.ItemClick += barButtonItem15_ItemClick;
             // 
             // ribbonPage1
             // 

@@ -49,6 +49,7 @@ namespace DesignModels
                     services.AddTransient<frmHang>();
                     services.AddTransient<frmKe>();
                     services.AddTransient<frmTraCuu>();
+                    services.AddTransient<frmBieuDo>();
                 });
         }
     }

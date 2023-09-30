@@ -54,7 +54,7 @@ namespace DesignModels
                 xuat.nhaporxuat = "Xuất kho";
                 lst.Add(xuat);
             }
-            gridControl1.DataSource = lst.OrderBy(x => x.ngayxuli);
+            gridControl1.DataSource = lst.OrderByDescending(x => x.ngayxuli);
 
             //var abc = await _luuTruService.GetAllLuuTru();
             //gridControl1.DataSource = abc;
